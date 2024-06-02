@@ -1,5 +1,5 @@
 <?php
-   /* require_once 'dbcon.php';    
+    require_once 'dbcon.php';    
     $sql="SELECT * FROM water_status";
     $result=mysqli_query($con,$sql);
     while($row = mysqli_fetch_array($result)){
@@ -18,7 +18,7 @@
               $s2=1;
             }
           }
-        }*/
+        }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,8 +31,6 @@
 </head>
 <body>
 <?php 
-$s1 = 1;
-$s2 = 0;
 if(($s1)==1&&($s2)==0){
     $s='น้อย';
     echo "<style>.water2{
